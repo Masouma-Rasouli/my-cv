@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Courgette", cursive;
+}
+
+/*navigation*/
+.main-nav {
+  /* border: 2px solid red;*/
+  background: linear-gradient(90deg #3f5efb, #fc466b);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.main-nav ul {
+  display: flex;
+}
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 0px;
+
+  border: 1px solid #3f5efb;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.main-nav li a:hover {
+  color: #fc466b;
+  background-color: #3f5efb;
+}
+
+.main-header {
+  /*border: 2px solid red*/
+  min-height: 50vh;
+  background: linear-gradient(#3f5efb, #fc466b);
+  padding: 180px 0px;
+  text-align: center;
+  text-shadow: 15px, 10px, 10px white;
+}
+
+.main-header h1 {
+  color: black;
+  font-size: 80px;
+}
+.main-header span {
+  font-weight: bold;
+}
+
+/*.main-header a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding: 5px 5px;
+}
+
+.main-header a:hover {
+  color: #3f5efb;
+  background-color: #fc466b;
+}*/
+
+/* work experience*/
+
+.main-work {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-work h2 {
+  font-size: 32px;
+  margin-left: 500px;
+  padding-top: 50px;
+}
+
+.work-cards {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+  margin-top: 0px;
+}
+
+.cards {
+  /* border: 2px solid red;*/
+  min-height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  margin-top: 0px;
+}
+
+.card-top {
+  /*border: 2px solid red;*/
+  border-radius: 6px 6px 0 0;
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-img1 {
+  background-image: url(./images/Google-Logo-2015-141154-detailnp.gif);
+}
+
+.card-img2 {
+  background-image: url(./images/wv\ logo\ with\ white\ space_0.jpg);
+}
+
+.card-img3 {
+  background-image: url(./images/000ant.jpg);
+}
+
+.card-img4 {
+  background-image: url(./images/03-atef.jpg);
+}
+
+.card-bottom {
+  /*border: 2px solid red;*/
+  border-radius: 0 0 6px 6px;
+  height: 25vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 20px 20px;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card-bottom a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+
+.card-bottom a:hover {
+  text-decoration: underline;
+  color: #3f5efb;
+}
+
+/*Education*/
+
+.main-education {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-education h2 {
+  color: black;
+  font-size: 32px;
+}
+.card-img5 {
+  background-image: url(./images/dci.jpg);
+}
+
+.card-img6 {
+  background-image: url(./images/GRADUATE.jpg);
+}
+
+.card-img7 {
+  background-image: url(./images/Herat_.jpeg);
+}
+
+/*About me*/
+
+.main-about {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-about h2 {
+  color: black;
+  font-size: 32px;
+  padding-top: 50px;
+  text-align: center;
+}
+.main-about p {
+  padding-top: 100px;
+  padding: 100px 100px;
+}
+.main-about img {
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 550px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  width: 150px;
+}
+
+/* Contact me: */
+.main-footer {
+  /*border: 2px solid red; */
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer ul {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.main-footer ul li a {
+  padding: 20px;
+  margin: 50px;
+  font-size: 120px;
+  color: black;
+}
+
+.main-footer ul li a:hover {
+  color: blue;
+  text-decoration-line: underline;
+}
+
+/*job des-second pages*/
+
+.job-des {
+  /*border: 1px solid red;*/
+  min-height: 100vh;
+  background-color: rgb(255, 242, 223);
+}
+
+.job-des h2 {
+  padding-left: 500px;
+}
+
+.job-des ul {
+  padding: 0px 50px;
+}
+
+.job-des img {
+  padding-left: 50px;
+
+}
+
+
+
